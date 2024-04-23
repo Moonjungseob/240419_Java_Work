@@ -6,6 +6,7 @@ public class Todaylunch {
 		// TODO Auto-generated method stub
 		System.out.println("오늘의 점심은 밀면?");
 		
+		
 
 	}
 
