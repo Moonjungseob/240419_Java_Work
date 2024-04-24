@@ -16,6 +16,8 @@ public class ScannerTest {
 		System.out.println("이름이 뭐예요?");
 		System.out.println("어디 사나요?");
 		System.out.println("취미가 뭐에요?");
+		System.out.println("1 ~ 10중 좋아하는 숫자가 뭐에요?");
+		
 		
 		
 		// scanner: 객체, 수납도구, 읽은 내용을 숫자, 또는 문자열로 변환 해줍니다. 
@@ -23,11 +25,14 @@ public class ScannerTest {
 		
 		String addressString = scanner.next();
 		
-		String hobitString = scanner.next();
+		String hobbyString = scanner.next();
+		
+		int Likenumber = scanner.nextInt();
 		
 		System.out.println("이름 : " + nameString);
 		System.out.println("사는 곳 : " + addressString);
-		System.out.println("취미 : " + hobitString);
+		System.out.println("취미 : " + hobbyString);
+		System.out.println("좋아하는 숫자 : " + Likenumber);
 		
 		// 객체를 사용 후 , 반납. 
 		scanner.close();
