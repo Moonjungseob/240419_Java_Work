@@ -73,7 +73,7 @@ public class minitest2 {
                 }
                 continue;
             } else if (weather.equals("4")) {
-                System.out.println("삭제하기 예)상용>>");
+                System.out.println("삭제하기 예)라면>>");
                 String deleteName = scanner.next();
 
                 for (int i = 0; i < vector.size(); i++) {
