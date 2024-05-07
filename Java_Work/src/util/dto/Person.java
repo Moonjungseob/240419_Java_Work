@@ -31,7 +31,7 @@ public class Person {
 		}
 		@Override
 		public String toString() {
-			return "[ 이름" + name + ", 연락처" + number + ", 등록시간" + Registrationdate + "]";
+			return "[ 이름 :" + name + ", 연락처" + number + ", 등록시간" + Registrationdate + "]";
 		}
 		
 }
